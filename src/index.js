@@ -1,2 +1,2 @@
-import "./js/header-height"
-import "./js/modal"
+import './js/header-height';
+import './js/modal';
