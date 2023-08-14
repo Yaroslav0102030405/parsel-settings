@@ -2,13 +2,11 @@
   "name": "parsel-settings",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
-  "main": "index.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel",
-    "build": "parcel build index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel src/build index.html --public-url /parcel-setting"
   },
   "repository": {
     "type": "git",
